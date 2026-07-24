@@ -127,6 +127,10 @@ dependency_overrides:
   photo_manager: ^3.0.0-dev.2
   photo_browser:
     path: local_plugin/photo_browser
+  # 钉死这几个包: 新版用了 Flutter 3.27 的 Color.withValues/toARGB32/WidgetState, 在 3.19.6 编不过
+  font_awesome_flutter: 10.8.0
+  flutter_spinkit: 5.2.1
+  wechat_picker_library: 1.0.5
 
 
 dev_dependencies:
